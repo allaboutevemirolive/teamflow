@@ -9,7 +9,11 @@ This project is:
 - Postgresql first
 - Includes migration scripts
 
-## Environment Information
+
+
+## How to Run Teamflow
+
+### 1. Environment Information
 
 <details>
 <summary>Click to expand!</summary>
@@ -52,7 +56,7 @@ SSD model: Samsung SSD 860 EVO 500GB
 ```
 </details>
 
-## Setup Database
+### 2. Setup Database
 
 <details>
 <summary>Click to expand!</summary>
@@ -102,7 +106,7 @@ SSD model: Samsung SSD 860 EVO 500GB
 
 </details>
 
-## Optional and `can be skip` (_Bring your own schema!_)
+### 3. Optional and `can be skip` ( _Bring your own schema!_ )
 
 <details>
 <summary>Click to expand!</summary>
@@ -142,7 +146,7 @@ See [StackOverflow Question](https://stackoverflow.com/q/75463561/16768401) for 
 
 </details>
 
-## Run the Application
+### 4. Run the Application
 
 <details>
 <summary>Click to expand!</summary>
@@ -173,7 +177,7 @@ See [StackOverflow Question](https://stackoverflow.com/q/75463561/16768401) for 
 
 See [NCOC](https://github.com/domgetter/NCoC/blob/master/README.md).
 
-## Unlicense
+## License
 
-[Unlicense](https://github.com/IQAndreas/markdown-licenses/blob/master/unlicense.md).
+See [Unlicense](https://github.com/IQAndreas/markdown-licenses/blob/master/unlicense.md).
 
