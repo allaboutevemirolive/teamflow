@@ -150,8 +150,14 @@ See [StackOverflow Question](https://stackoverflow.com/q/75463561/16768401) for 
 
 3. Log in with the following credentials:
 
+    - **Email:** admin@gmail.com
+    - **Password:** admin
+
+    or
+
     - **Email:** johndoe@example.com
-    - **Password:** hashed_password
+    - **Password:** admin
+
     
 </details>
 
