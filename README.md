@@ -11,9 +11,9 @@ Teamflow is a Spring Boot application management system written in Java. This ap
 
 ```sh
 $ java --version
-java 21.0.3 2024-04-16 LTS
-Java(TM) SE Runtime Environment (build 21.0.3+7-LTS-152)
-Java HotSpot(TM) 64-Bit Server VM (build 21.0.3+7-LTS-152, mixed mode, sharing)
+java 17.0.11 2024-04-16 LTS
+Java(TM) SE Runtime Environment (build 17.0.11+7-LTS-207)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.11+7-LTS-207, mixed mode, sharing)
 ```
 
 ### Maven
@@ -22,7 +22,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 21.0.3+7-LTS-152, mixed mode, sharing)
 $ mvn -v
 Apache Maven 3.9.7 (8b094c9513efc1b9ce2d952b3b9c8eaedaf8cbf0)
 Maven home: /opt/apache-maven-3.9.7
-Java version: 21.0.3, vendor: Oracle Corporation, runtime: /opt/jdk-21.0.3
+Java version: 17.0.11, vendor: Oracle Corporation, runtime: /opt/jdk-17.0.11
 Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "6.1.0-21-amd64", arch: "amd64", family: "unix"
 ```
@@ -123,7 +123,13 @@ If you prefer not to use the `public` schema, you can create a new schema and gr
     # spring.jpa.properties.hibernate.default_schema=teamflow_migrations
     ```
 
-4. Run the application as described in the next section.
+4. Run the Flyway migration script:
+
+    ```sh
+    mvn flyway:migrate -Dflyway.schemas=teamflow_migrations -Dflyway.url=jdbc:postgresql://localhost/teamflow -Dflyway.user=allaboutevemirolive -Dflyway.password=123456789
+    ```
+
+5. Run the application as described in the next section.
 
 See [StackOverflow Question](https://stackoverflow.com/q/75463561/16768401) for more information on why we need to create separate schemas.
 
