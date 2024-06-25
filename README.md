@@ -6,7 +6,7 @@ This project is:
 
 - Full CRUD
 - JWT authentication
-- Postgresql first
+- PostgreSQL first
 - Includes migration scripts
 
 
