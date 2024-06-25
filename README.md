@@ -1,6 +1,6 @@
 # Teamflow
 
-Teamflow is a Spring Boot application management system written in Java. This application implemented with full CRUD operation and database migration.
+Teamflow is a Spring Boot application management system written in Java that supports full CRUD operations and database migrations. This project is based on the [Taming Thymeleaf Sources](https://github.com/wimdeblauwe/taming-thymeleaf-sources) tutorial. The original project did not include PostgreSQL or migration scripts, which were added to improve learning and usability.
 
 ## Environment Information
 
