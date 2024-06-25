@@ -1,0 +1,22 @@
+$ mvn flyway:clean flyway:migrate
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------< com.tamingthymeleaf:taming-thymeleaf-application >----------
+[INFO] Building Taming Thymeleaf 16.13 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- flyway:9.5.1:clean (default-cli) @ taming-thymeleaf-application ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.497 s
+[INFO] Finished at: 2024-06-24T06:47:18-04:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.flywaydb:flyway-maven-plugin:9.5.1:clean (default-cli) on project taming-thymeleaf-application: org.flywaydb.core.api.FlywayException: Unable to connect to the database. Configure the url, user and password! -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
